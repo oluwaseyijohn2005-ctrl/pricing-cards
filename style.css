@@ -14,9 +14,9 @@ body{
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
-    height:650px;
+    height:100dvh;
     align-items: center;
-    border: 2px solid black;
+    
 }
 .box{
  background-color: whitesmoke;

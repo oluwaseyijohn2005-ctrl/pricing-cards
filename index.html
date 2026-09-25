@@ -7,37 +7,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="switching">
+        <h1>Pricing Cards</h1>
+         <p>with a monthly-yearly switcher</p>
+        <div class="switchbtn">
+            <button id="monthly" class="active">Monthly</button>
+            <button id="yearly" class="active" >Yearly</button></div>
+        </div>
     <div class="container">
        <div class="box">
         <h1>Free Plan</h1>
         <p>for personal</p>
         <p class="amount">$0</p>
-        <p><img src="https://cdn-icons-png.flaticon.com/512/665/665939.png"> 1 users</p>
+        <p><img src="https://cdn-icons-png.flaticon.com/512/665/665939.png"> 1 user </p>
         <p><img src="https://cdn-icons-png.flaticon.com/512/665/665939.png"> 4 Web mails</p>
         <p><img src="https://cdn-icons-png.flaticon.com/512/665/665939.png"> Responsive Website</p>
         <p><img src="https://cdn-icons-png.flaticon.com/512/665/665939.png"> Free SSL</p>
-        <button>Subscribe now</button>
+        <button class="btn">Subscribe now</button>
     </div>
     <div class="box middle">
          <h1>Basic Plan</h1>
          <p>For small business</p>
-         <p class="amount">$29</p>
+         <p class="amount" id="basicamount">$29</p>
         <p><img src="https://uxwing.com/wp-content/themes/uxwing/download/checkmark-cross/checkmark-white-round-icon.png"> 4 users</p>
         <p><img src="https://uxwing.com/wp-content/themes/uxwing/download/checkmark-cross/checkmark-white-round-icon.png"> 10 Web mails</p>
         <p><img src="https://uxwing.com/wp-content/themes/uxwing/download/checkmark-cross/checkmark-white-round-icon.png"> Responsive Website</p>
         <p> <img src="https://uxwing.com/wp-content/themes/uxwing/download/checkmark-cross/checkmark-white-round-icon.png"> Free SSL</p>
-        <button>Subscribe now</button></div>
+        <button class="middlebtn">Subscribe now</button></div>
     <div class="box"> 
          <h1>Pro Plan</h1>
          <p>For enterprice</p>
-         <p class="amount">$49</p>
+         <p class="amount" id="proamount">$49</p>
         <p><img src="https://cdn-icons-png.flaticon.com/512/665/665939.png"> Unlimited users</p>
         <p><img src="https://cdn-icons-png.flaticon.com/512/665/665939.png"> Unlimited Web mails</p>
         <p><img src="https://cdn-icons-png.flaticon.com/512/665/665939.png"> Responsive Website</p>
         <p><img src="https://cdn-icons-png.flaticon.com/512/665/665939.png"> Free SSL + SEO</p>
-        <button>Subscribe now</button>
+        <button class="btn">Subscribe now</button>
     </div>
 </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>

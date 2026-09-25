@@ -6,6 +6,8 @@
 
 body{
     background-color: #f2f2f7;
+    font-family: sans-serif;
+   color:rgb(19, 17, 34) ;
 }
 
 .container{
@@ -14,7 +16,6 @@ body{
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
-    min-height:100dvh;
     padding:24px 16px;
 }
 .box{
@@ -33,7 +34,7 @@ body{
     background-color: rgb(19, 17, 34);
     color: white;
 }
-button{
+.btn{
 background-color:rgb(19, 17, 34);
 border: none;
 border-radius: 2px;
@@ -49,7 +50,38 @@ margin-top:20px;
 img{
     width: 17px;
 }
-.middle button{
+.middlebtn {
     background-color: white;
-    color:rgb(19, 17, 34) ;
+    color:rgb(19, 17, 34);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top:20px;
+}
+.switching{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+   margin-top: 20px;
+}
+
+.switchbtn{
+    border: solid 1px rgb(19, 17, 34);
+    padding: 9px 3px;
+    padding-bottom: 11px;
+    border-radius: 19px;
+    padding: 2px 2px;
+    margin-top: 20px;
+}
+
+.switchbtn >  button{
+    border: none;
+    font-family: sans-serif;
+}
+.active{
+      background: rgb(19, 17, 34);
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
 }
